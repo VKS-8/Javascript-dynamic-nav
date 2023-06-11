@@ -1,0 +1,88 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ letter-spacing: 0.25rem;
+}
+
+body {
+ height: 100%;
+ width: 100%;
+ background: lightcoral;
+}
+
+nav {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ padding: 0;
+ margin: 0 0 0 -4rem;
+}
+
+nav ul {
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ border-radius: 0;
+}
+
+nav a {
+ text-decoration: none;
+ list-style-type: none;
+ color: #fff;
+}
+
+main {
+ padding: 4rem;
+}
+
+h1, 
+h2,
+h3,
+input,
+select {
+ margin: 2rem;
+ padding: 1rem 2rem;
+ border-radius: 30px;
+ width: 70%;
+ background: lightgoldenrodyellow
+}
+
+button {
+ height: 7.5rem;
+ width: 7.5rem;
+ border-radius: 50%;
+ border: 3px solid #b0aeae;
+ box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+ font-size: 1.25rem;
+ font-weight: 700;
+ cursor: pointer;
+}
+
+input {
+ font-size: 2rem;
+ border: inset;
+ border: 1rem solid #b0aeae;
+ box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+ul,
+#appendedElements {
+ font-size: 3rem;
+ color: white;
+ padding: 2rem;
+ background: rgb(5, 81, 77);
+ border-radius: 30px;
+ width: 50%;
+ margin: 0 0 0 4rem;
+}
+
+ul {
+ text-decoration: none;
+ list-style-type: none;
+}
+
+select {
+ font-size: 2rem;
+}
