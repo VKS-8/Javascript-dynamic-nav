@@ -59,7 +59,8 @@ select {
  margin: 2rem auto;
  padding: 1rem 2rem;
  border-radius: 30px;
- width: 70%;
+ color: rgb(12, 69, 66);
+ width: 80%;
  background: lightgoldenrodyellow
 }
 
@@ -84,11 +85,12 @@ button {
  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
  font-size: 1.25rem;
  font-weight: 700;
+ color: rgb(12, 69, 66);
  cursor: pointer;
 }
 
 input {
-  width: 100%;
+ width: 100%;
  font-size: 2rem;
  border: inset;
  border: 1rem solid #b0aeae;
