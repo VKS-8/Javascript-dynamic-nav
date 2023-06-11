@@ -5,27 +5,57 @@
   <link rel="stylesheet" href="styles.css">
   <script defer src="app.js"></script>
 </head>
-<body>
+<div>
   <nav id="navigation">
-    <ul id="navList"></ul>
+    <ul id="navList">
+      <img src="/images/iconPlaceholder.png">
+    </ul>
   </nav>
-  <main>
-    <h1>Elements to Append:</h1>
+  <section id="section1" class="active">
+    <h1>Available Elements to Add to the DOM</h1>
     <ul id="elementList"></ul>
-
+  </section>
+    <br>
+    <hr>
+    <br>
+  <section id="section2">
     <h2>Add Element:</h2>
     <input type="text" id="newElementInput">
+    <br>
+  <div class="btnDiv">
     <button id="addElementBtn">Add</button>
-
+  </div>
+  </section>
+    <br>
+    <hr>
+    <br>
+  <section id="section3">
     <h2>Appended Elements:</h2>
     <div id="appendedElements"></div>
-
-    <h2>Dropdown:</h2>
-    <select id="dropdown"></select>
-
+  </section>
+    <br>
+    <hr>
+    <br>
+  <section id="section4">
+    <h2>Choose an element to add to the DOM:</h2>
+    <select id="dropdown">
+      <option>Select element to add</option>
+    </select>
+  </section>
+    <br>
+  <hr>
+    <br>
     <h2>Remove Element:</h2>
-    <select id="removeElementDropdown"></select>
+    <select id="removeElementDropdown">
+      <option>Select element to remove</option>
+    </select>
+    <br>
+  <div class="btnDiv">
     <button id="removeElementBtn">Remove</button>
-  </main>
+  </div>
+  <br>
+    <hr>
+    <br>
+
 </body>
 </html>
